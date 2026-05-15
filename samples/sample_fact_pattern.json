@@ -1,0 +1,75 @@
+{
+  "testator": {
+    "name": "John Robert Williams",
+    "age": 72,
+    "county": "Hennepin County",
+    "state": "Minnesota",
+    "state_code": "MN"
+  },
+  "marital_status": "second marriage",
+  "spouse": {
+    "name": "Margaret Williams",
+    "relationship": "current spouse"
+  },
+  "children": [
+    {
+      "name": "David Williams",
+      "relationship": "child from first marriage",
+      "age": null,
+      "minor": false
+    },
+    {
+      "name": "Sarah Williams",
+      "relationship": "child from first marriage",
+      "age": null,
+      "minor": false
+    },
+    {
+      "name": "Michael Williams",
+      "relationship": "child from current marriage",
+      "age": 14,
+      "minor": true
+    }
+  ],
+  "assets": [
+    {
+      "description": "family home",
+      "address": "814 Elm Street",
+      "type": "real_property",
+      "beneficiary": "Margaret Williams"
+    },
+    {
+      "description": "Schwab brokerage account",
+      "approximate_value": 340000,
+      "type": "financial_account",
+      "beneficiary": ["David Williams", "Sarah Williams"],
+      "distribution": "equal shares"
+    },
+    {
+      "description": "2019 Toyota Camry",
+      "type": "vehicle",
+      "beneficiary": "Michael Williams"
+    }
+  ],
+  "residuary_estate": {
+    "beneficiary": "Margaret Williams",
+    "alternate_beneficiary": null
+  },
+  "personal_representative": {
+    "primary": "Margaret Williams",
+    "alternate": "David Williams"
+  },
+  "trust": {
+    "beneficiary": "Michael Williams",
+    "age_of_termination": 25,
+    "reason": "minor beneficiary",
+    "trustee": "Margaret Williams"
+  },
+  "jurisdiction": {
+    "state": "Minnesota",
+    "state_code": "MN",
+    "required_witnesses": 2,
+    "notarization_optional": true,
+    "governing_statute": "Minn. Stat. § 524.2-502"
+  }
+}

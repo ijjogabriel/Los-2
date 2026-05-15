@@ -1,0 +1,8 @@
+spacy>=3.7.0
+en-core-web-lg @ https://github.com/explosion/spacy-models/releases/download/en_core_web_lg-3.7.1/en_core_web_lg-3.7.1-py3-none-any.whl
+sentence-transformers>=2.7.0
+thefuzz>=0.22.1
+python-Levenshtein>=0.25.0
+rich>=13.7.0
+numpy>=1.26.0
+scikit-learn>=1.4.0

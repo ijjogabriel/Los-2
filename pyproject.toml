@@ -1,0 +1,25 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "will-checker"
+version = "0.1.0"
+description = "Detect and categorize errors in LLM-generated wills"
+requires-python = ">=3.11"
+dependencies = [
+    "spacy>=3.7.0",
+    "sentence-transformers>=2.7.0",
+    "thefuzz>=0.22.1",
+    "python-Levenshtein>=0.25.0",
+    "rich>=13.7.0",
+    "numpy>=1.26.0",
+    "scikit-learn>=1.4.0",
+]
+
+[project.scripts]
+will-checker = "will_checker.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["will_checker*"]
