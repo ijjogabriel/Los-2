@@ -15,10 +15,13 @@ dependencies = [
     "rich>=13.7.0",
     "numpy>=1.26.0",
     "scikit-learn>=1.4.0",
+    "streamlit>=1.35.0",
+    "pandas>=2.0.0",
 ]
 
 [project.scripts]
 will-checker = "will_checker.cli:main"
+will-checker-ui = "will_checker._launch:run_ui"
 
 [tool.setuptools.packages.find]
 where = ["."]
